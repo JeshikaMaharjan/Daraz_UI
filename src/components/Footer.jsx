@@ -1,5 +1,17 @@
 import "../styles/footer.css";
-
+import pakistan from "../assets/flags/pakistan.png";
+import bangladesh from "../assets/flags/bangladesh.png";
+import srilanka from "../assets/flags/srilanka.png";
+import myanmar from "../assets/flags/myanmar.png";
+import nepal from "../assets/flags/nepal.png";
+import visa from "../assets/flags/visa.png";
+import mastercard from "../assets/flagsmastercardl.png";
+import esewa from "../assets/flags/esewa.png";
+import qr from "../assets/flags/qr.png";
+import appgallery from "../assets/flaappgallerypal.png";
+import applestore from "../assets/flags/applestore.png";
+import googleplay from "../assets/flags/googleplay.png";
+import socialmedia from "../assets/flagssocialmedial.png";
 export default function Footer() {
   return (
     <>
@@ -33,40 +45,40 @@ export default function Footer() {
         <div className="darazInternational">
           <h3>Daraz International</h3>
           <div className="country">
-            <img src="../src/assets/flags/pakistan.png" />
+            <img src={pakistan} />
             <p>Pakistan</p>
-            <img src="../src/assets/flags/bangladesh.png" />
+            <img src={bangladesh} />
             <p>Bangladesh</p>
-            <img src="../src/assets/flags/srilanka.png" />
+            <img src={srilanka} />
             <p>SriLanka</p>
-            <img src="../src/assets/flags/myanmar.png" />
+            <img src={myanmar} />
             <p>Myanmar</p>
-            <img src="../src/assets/flags/nepal.png" />
+            <img src={nepal} />
             <p>Nepal</p>
           </div>
         </div>
         <div className="paymentMethods">
           <h3>Payment Methods</h3>
-          <img src="../src/assets/visa.png" />
-          <img src="../src/assets/mastercard.png" />
-          <img src="../src/assets/esewa.png" />
+          <img src={visa} />
+          <img src={mastercard} />
+          <img src={esewa} />
         </div>
         <div className="exclusiveDeals">
           <h3>Exclusive Deals</h3>
           <div className="exclusiveInner">
             <div className="qr">
-              <img src="../src/assets/qr.png" />
+              <img src={qr} />
             </div>
             <div className="appImages">
-              <img src="../src/assets/appgallery.png" />
-              <img src="../src/assets/applestore.png" />
-              <img src="../src/assets/googleplay.png" />
+              <img src={appgallery} />
+              <img src={applestore} />
+              <img src={googleplay} />
             </div>
           </div>
         </div>
         <div className="followUs">
           <h3>Follow Us</h3>
-          <img src="../src/assets/socialmedia.jpg" />
+          <img src={socialmedia} />
         </div>
       </div>
     </>

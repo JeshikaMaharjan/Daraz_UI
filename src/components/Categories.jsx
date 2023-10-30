@@ -1,9 +1,11 @@
 import "../styles/categories.css";
+import trimmer from "../assets/categories/trimmer.jpg";
+import trimmer from "../assets/categories/trimmer.jpg";
 export default function Categories() {
   const list = [
     {
       name: "Trimmers & Groomers",
-      src: "trimmer.jpg",
+      src: trimmer,
     },
     {
       name: "Shapewear",
@@ -69,7 +71,7 @@ export default function Categories() {
               <>
                 <div className=" category-card">
                   <div className="img-container">
-                    <img src={`../src/assets/categories/${item.src}`} />
+                    <img src={item.src} />
                   </div>
                   <p>{item.name}</p>
                 </div>

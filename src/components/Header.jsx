@@ -1,5 +1,9 @@
 import "../styles/header.css";
 import smallLogo from "../assets/smallLogo.png";
+import darazlogo from "../assets/darazLogo.png";
+import account from "../assets/account.png";
+import language from "../assets/language.png";
+import cart from "../assets/cart.png";
 
 export default function Header() {
   window.onscroll = function () {
@@ -32,24 +36,24 @@ export default function Header() {
           </div>
         </div>
         <div className="logo">
-          <img src="assets/darazLogo.png" />
+          <img src={darazlogo} />
         </div>
         <div className="searchBar">
           <input placeholder="Search in Daraz"></input>
         </div>
         <div className="account">
-          <img src="assets/account.png" />
+          <img src={account} />
           <div>
             <span>Hello,user.</span>
             <p>Orders & Account</p>
           </div>
         </div>
         <div className="language">
-          <img src="../assets/language.png" />
+          <img src={language} />
           <span>EN</span>
         </div>
         <div className="cart">
-          <img src="../assets/cart.png" />
+          <img src={cart} />
         </div>
       </div>
     </>

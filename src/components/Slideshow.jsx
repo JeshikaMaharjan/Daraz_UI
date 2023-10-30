@@ -3,22 +3,22 @@ import "../styles/slideshow.css";
 export default function Slideshow() {
   const slideImages = [
     {
-      url: "../assets/slideshow/slide1.jpg",
+      url: "../src/assets/slideshow/slide1.jpg",
     },
     {
-      url: "../assets/slideshow/slide2.jpg",
+      url: "../src/assets/slideshow/slide2.jpg",
     },
     {
-      url: "../assets/slideshow/slide3.jpg",
+      url: "../src/assets/slideshow/slide3.jpg",
     },
     {
-      url: "../assets/slideshow/slide4.jpg",
+      url: "../src/assets/slideshow/slide4.jpg",
     },
     {
-      url: "../assets/slideshow/slide5.jpg",
+      url: "../src/assets/slideshow/slide5.jpg",
     },
     {
-      url: "../assets/slideshow/slide6.jpg",
+      url: "../src/assets/slideshow/slide6.jpg",
     },
   ];
   const [activeImageNum, setCurrent] = useState(0);

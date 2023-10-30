@@ -69,7 +69,7 @@ export default function Categories() {
               <>
                 <div className=" category-card">
                   <div className="img-container">
-                    <img src={`../assets/categories/${item.src}`} />
+                    <img src={`../src/assets/categories/${item.src}`} />
                   </div>
                   <p>{item.name}</p>
                 </div>

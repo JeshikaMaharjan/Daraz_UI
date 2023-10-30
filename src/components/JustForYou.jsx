@@ -108,7 +108,7 @@ export default function JustForYou() {
               <>
                 <div className="justforyou-card">
                   <div className="jimg-container">
-                    <img src={`../assets/justforyou/${item.src}`} />
+                    <img src={`../src/assets/justforyou/${item.src}`} />
                   </div>
                   <p>{item.name}</p>
                   <h4>{item.price}</h4>
@@ -119,7 +119,7 @@ export default function JustForYou() {
                   <div className="rating">
                     <img
                       className="ratingImg"
-                      src={`../assets/justforyou/rating.jpg`}
+                      src={`../src/assets/justforyou/rating.jpg`}
                     />
                     <span className="ratingSpan">{item.rating}</span>
                   </div>

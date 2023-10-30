@@ -60,7 +60,7 @@ export default function SaleCard() {
               <>
                 <div className="salecard-card">
                   <div className="simg-container">
-                    <img src={`../assets/salecard/${item.src}`} />
+                    <img src={`../src/assets/salecard/${item.src}`} />
                   </div>
                   <p>{item.name}</p>
                   <h4>{item.price}</h4>

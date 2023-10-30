@@ -33,40 +33,40 @@ export default function Footer() {
         <div className="darazInternational">
           <h3>Daraz International</h3>
           <div className="country">
-            <img src="../assets/flags/pakistan.png" />
+            <img src="../src/assets/flags/pakistan.png" />
             <p>Pakistan</p>
-            <img src="../assets/flags/bangladesh.png" />
+            <img src="../src/assets/flags/bangladesh.png" />
             <p>Bangladesh</p>
-            <img src="../assets/flags/srilanka.png" />
+            <img src="../src/assets/flags/srilanka.png" />
             <p>SriLanka</p>
-            <img src="../assets/flags/myanmar.png" />
+            <img src="../src/assets/flags/myanmar.png" />
             <p>Myanmar</p>
-            <img src="../assets/flags/nepal.png" />
+            <img src="../src/assets/flags/nepal.png" />
             <p>Nepal</p>
           </div>
         </div>
         <div className="paymentMethods">
           <h3>Payment Methods</h3>
-          <img src="../assets/visa.png" />
-          <img src="../assets/mastercard.png" />
-          <img src="../assets/esewa.png" />
+          <img src="../src/assets/visa.png" />
+          <img src="../src/assets/mastercard.png" />
+          <img src="../src/assets/esewa.png" />
         </div>
         <div className="exclusiveDeals">
           <h3>Exclusive Deals</h3>
           <div className="exclusiveInner">
             <div className="qr">
-              <img src="../assets/qr.png" />
+              <img src="../src/assets/qr.png" />
             </div>
             <div className="appImages">
-              <img src="../assets/appgallery.png" />
-              <img src="../assets/applestore.png" />
-              <img src="../assets/googleplay.png" />
+              <img src="../src/assets/appgallery.png" />
+              <img src="../src/assets/applestore.png" />
+              <img src="../src/assets/googleplay.png" />
             </div>
           </div>
         </div>
         <div className="followUs">
           <h3>Follow Us</h3>
-          <img src="../assets/socialmedia.jpg" />
+          <img src="../src/assets/socialmedia.jpg" />
         </div>
       </div>
     </>

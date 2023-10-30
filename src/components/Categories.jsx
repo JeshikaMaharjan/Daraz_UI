@@ -5,7 +5,7 @@ export default function Categories() {
   const list = [
     {
       name: "Trimmers & Groomers",
-      src: trimmer,
+      src: "trimmer",
     },
     {
       name: "Shapewear",

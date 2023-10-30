@@ -1,24 +1,30 @@
 import { useState } from "react";
 import "../styles/slideshow.css";
+import slide1 from "../assets/slideshow/slide1.jpg";
+import slide2 from "../assets/slideshow/slide2.jpg";
+import slide3 from "../assets/slideshow/slide3.jpg";
+import slide4 from "../assets/slideshow/slide4.jpg";
+import slide5 from "../assets/slideshow/slide5.jpg";
+import slide6 from "../assets/slideshow/slide6.jpg";
 export default function Slideshow() {
   const slideImages = [
     {
-      url: "../assets/slideshow/slide1.jpg",
+      url: `${slide1}`,
     },
     {
-      url: "../assets/slideshow/slide2.jpg",
+      url: `${slide2}`,
     },
     {
-      url: "../assets/slideshow/slide3.jpg",
+      url: `${slide3}`,
     },
     {
-      url: "../assets/slideshow/slide4.jpg",
+      url: `${slide4}`,
     },
     {
-      url: "../assets/slideshow/slide5.jpg",
+      url: `${slide5}`,
     },
     {
-      url: "../assets/slideshow/slide6.jpg",
+      url: `${slide6}`,
     },
   ];
   const [activeImageNum, setCurrent] = useState(0);

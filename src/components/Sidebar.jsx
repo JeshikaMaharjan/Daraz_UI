@@ -1,11 +1,21 @@
 import { useState } from "react";
 import "../styles/sidebar.css";
+import dress from "../assets/sidebar/dress.png";
+import mensclothing from "../assets/sidebar/mens-clothing.png";
+import camera from "../assets/sidebar/camera.png";
+import wristwatch from "../assets/sidebar/wristwatch.png";
+import groceries from "../assets/sidebar/groceries.png";
+import teddybear from "../assets/sidebar/teddy-bear.png";
+import sofa from "../assets/sidebar/sofa.png";
+import basketball from "../assets/sidebar/basketball.png";
+import car from "../assets/sidebar/car.png";
+import beauty from "../assets/sidebar/beauty.png";
 import Submenu from "./Submenu";
 export default function Sidebar() {
   const items = [
     {
       name: "Women's Fashion",
-      src: "dress.png",
+      src: `${dress}`,
       submenu: [
         "Clothing",
         "Traditional Clothing",
@@ -18,7 +28,7 @@ export default function Sidebar() {
     },
     {
       name: "Health & Beauty",
-      src: "beauty.png",
+      src: `${beauty}`,
       submenu: [
         "Bath & Body",
         "Beauty Tools",
@@ -30,7 +40,7 @@ export default function Sidebar() {
     },
     {
       name: "Men's Fashion",
-      src: "mens-clothing.png",
+      src: `${mensclothing}`,
       submenu: [
         "Clothing",
         "Men's Bags",
@@ -42,7 +52,7 @@ export default function Sidebar() {
     },
     {
       name: "Electronic Devices",
-      src: "camera.png",
+      src: `${camera}`,
       submenu: [
         "Smartphones",
         "Feature Phones",
@@ -58,7 +68,7 @@ export default function Sidebar() {
     },
     {
       name: "Electronic Accessories",
-      src: "wristwatch.png",
+      src: `${wristwatch}`,
       submenu: [
         "Smartphones",
         "Feature Phones",
@@ -71,7 +81,7 @@ export default function Sidebar() {
     },
     {
       name: "Groceries & Pets",
-      src: "groceries.png",
+      src: `${groceries}`,
       submenu: [
         "Groceries",
         "Beverages",
@@ -85,7 +95,7 @@ export default function Sidebar() {
     },
     {
       name: "Babies & Toys",
-      src: "teddy-bear.png",
+      src: `${teddybear}`,
       submenu: [
         " Disposable Diapers",
         "Baby Gear",
@@ -102,7 +112,7 @@ export default function Sidebar() {
     },
     {
       name: "Home & Lifestyle",
-      src: "sofa.png",
+      src: `${sofa}`,
       submenu: [
         " Bath",
         "Bedding",
@@ -118,7 +128,7 @@ export default function Sidebar() {
     },
     {
       name: "Sports & Outdoor",
-      src: "basketball.png",
+      src: `${basketball}`,
       submenu: [
         "Men Shoes & Clothing",
 
@@ -136,7 +146,7 @@ export default function Sidebar() {
     },
     {
       name: "Motors,Tools and DIY",
-      src: "car.png",
+      src: `${car}`,
       submenu: [
         " Automotive",
         "Motorcycles",
@@ -161,7 +171,7 @@ export default function Sidebar() {
             <>
               <div className="sidebarComponent">
                 <div className="imageContainer">
-                  <img src={`../assets/sidebar/${item.src}`} />
+                  <img src={item.src} />
                 </div>
                 <p
                   onMouseOver={() => {

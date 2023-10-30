@@ -1,4 +1,5 @@
 import "../styles/header.css";
+
 import smallLogo from "../assets/smallLogo.png";
 import darazlogo from "../assets/darazLogo.png";
 import account from "../assets/account.png";

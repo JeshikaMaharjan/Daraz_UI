@@ -4,14 +4,14 @@ import bangladesh from "../assets/flags/bangladesh.png";
 import srilanka from "../assets/flags/srilanka.png";
 import myanmar from "../assets/flags/myanmar.png";
 import nepal from "../assets/flags/nepal.png";
-import visa from "../assets/flags/visa.png";
-import mastercard from "../assets/flagsmastercardl.png";
-import esewa from "../assets/flags/esewa.png";
-import qr from "../assets/flags/qr.png";
-import appgallery from "../assets/flaappgallerypal.png";
-import applestore from "../assets/flags/applestore.png";
-import googleplay from "../assets/flags/googleplay.png";
-import socialmedia from "../assets/flagssocialmedial.png";
+import visa from "../assets/visa.png";
+import mastercard from "../assets/mastercard.png";
+import esewa from "../assets/esewa.png";
+import qr from "../assets/qr.png";
+import appgallery from "../assets/appgallery.png";
+import applestore from "../assets/applestore.png";
+import googleplay from "../assets/googleplay.png";
+import socialmedia from "../assets/socialmedia.jpg";
 export default function Footer() {
   return (
     <>

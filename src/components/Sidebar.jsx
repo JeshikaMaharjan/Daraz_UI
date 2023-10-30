@@ -161,7 +161,7 @@ export default function Sidebar() {
             <>
               <div className="sidebarComponent">
                 <div className="imageContainer">
-                  <img src={`../src/assets/sidebar/${item.src}`} />
+                  <img src={`../assets/sidebar/${item.src}`} />
                 </div>
                 <p
                   onMouseOver={() => {

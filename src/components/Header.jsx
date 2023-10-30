@@ -30,7 +30,7 @@ export default function Header() {
           </div>
         </div>
         <div className="logo">
-          <img src="../src/assets/darazlogo.png" />
+          <img src="./src/assets/darazlogo.png" />
         </div>
         <div className="searchBar">
           <input placeholder="Search in Daraz"></input>

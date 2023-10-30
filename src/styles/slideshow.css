@@ -1,0 +1,42 @@
+.slideshow-container {
+  position: relative;
+  border-radius: 15px;
+}
+.image {
+  max-height: 300px;
+  border-radius: 15px;
+  width: 100%;
+}
+.left,
+.right {
+  position: absolute;
+  top: 40%;
+}
+.scroll-btn {
+  height: 50px;
+  width: 20px;
+  background-color: rgba(184, 178, 178, 0.692);
+  /* opacity: 0.6; */
+  border: none;
+  font-size: 20px;
+  color: white;
+}
+.right {
+  right: 0px;
+}
+/* .currentSlide {
+  opacity: 0;
+ 
+}
+.active {
+  opacity: 1;
+ 
+}
+@keyframes slide {
+  from {
+    translate: 80px 0px;
+  }
+  to {
+    translate: 0 0;
+  }
+} */

@@ -1,0 +1,81 @@
+.footer-container {
+  /* background-color: aqua; */
+  height: 100%;
+  margin-bottom: 5px;
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(2, auto);
+  grid-template-areas:
+    "customerCare daraz darazInternational exclusiveDeals"
+    "earnWithDaraz daraz paymentMethods followUs ";
+}
+
+.customerCare {
+  grid-area: customerCare;
+}
+.earnWithDaraz {
+  grid-area: earnWithDaraz;
+}
+.daraz {
+  grid-area: daraz;
+}
+.darazInternational {
+  grid-area: darazInternational;
+}
+.paymentMethods {
+  grid-area: paymentMethods;
+}
+.exclusiveDeals {
+  grid-area: exclusiveDeals;
+}
+.followUs {
+  grid-area: followUs;
+}
+.footer-container h3 {
+  color: #f85506;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.footer-container p {
+  color: black;
+}
+.footer-container p:hover {
+  text-decoration: underline;
+}
+.country {
+  display: flex;
+  width: 220px;
+  flex-wrap: wrap;
+  gap: 5px;
+  align-items: center;
+}
+.country img {
+  height: 30px;
+  border-radius: 3px;
+}
+.paymentMethods img {
+  height: 50px;
+  padding: 5px;
+}
+.exclusiveInner {
+  display: flex;
+}
+.appImages img {
+  width: 120px;
+}
+.qr img {
+  flex: 1;
+  height: 120px;
+}
+.appImages {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+}
+.followUs img {
+  height: 50px;
+}

@@ -1,0 +1,38 @@
+.sidebarComponent {
+  display: flex;
+  padding: 5px;
+  /* background-color: aqua; */
+  gap: 10px;
+}
+.imageContainer {
+  height: 20px;
+}
+.imageContainer img {
+  height: 100%;
+  opacity: 0.6;
+}
+.sidebarComponent p {
+  color: rgb(95, 90, 90);
+  font-size: 16px;
+}
+.sidebarComponent p:hover {
+  color: #f85506;
+  font-size: 16px;
+}
+
+.submenu {
+  position: fixed;
+  z-index: 1;
+  top: 110px;
+  left: 400px;
+  background-color: white;
+  padding: 5px;
+  width: 200px;
+  height: 320px;
+}
+.submenu p {
+  color: rgb(95, 90, 90);
+  font: 12px;
+  padding: 5px;
+  visibility: visible;
+}

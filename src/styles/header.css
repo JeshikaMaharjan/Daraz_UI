@@ -1,0 +1,123 @@
+.header-container {
+  height: 100%;
+  /* max-height: 60px; */
+  margin-top: 2px;
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  grid-template-columns: auto 1fr repeat(3, auto);
+  /* gap: 0.3em; */
+  margin-left: 180px;
+  margin-right: 180px;
+  grid-template-areas:
+    " linkList linkList linkList linkList linkList"
+    " logo searchBar account language cart";
+}
+
+.linkList {
+  grid-area: linkList;
+  display: grid;
+  grid-template-columns: repeat(3, 0.5fr) repeat(3, 1fr);
+  color: white;
+  height: 20%;
+}
+.list {
+  /* font-size: 14px; */
+  grid-column: 1/4;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media (max-width: 1235px) {
+  .list {
+    grid-column: 1/6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .linkButton img {
+    display: none;
+  }
+}
+
+.linkButton {
+  grid-column: 6;
+  background-color: rgba(14, 13, 13, 0.4);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  justify-self: end;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  padding: 2px;
+}
+.linkButton img {
+  height: 30px;
+  padding: 0.2em;
+}
+.linkButton span {
+  padding: 0.2em;
+  color: white;
+}
+
+.logo {
+  grid-area: logo;
+}
+.logo img {
+  width: 120px;
+  height: 48px;
+  margin-bottom: 5px;
+}
+
+.searchBar {
+  grid-area: searchBar;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.searchBar input {
+  border-radius: 1rem;
+  width: 95%;
+  min-width: 200px;
+  height: 80%;
+  padding-left: 20px;
+  border: none;
+}
+.account {
+  grid-area: account;
+  display: flex;
+  gap: 5px;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.account img {
+  height: 30px;
+  width: 30px;
+}
+.account span,
+p {
+  color: white;
+  font-size: 14px;
+}
+.account p {
+  font-weight: bold;
+}
+.language {
+  grid-area: language;
+  display: flex;
+  gap: 5px;
+  padding: 5px;
+  align-items: center;
+  color: white;
+}
+.cart {
+  grid-area: cart;
+  display: flex;
+  padding: 5px;
+  align-items: center;
+}
+.removeLink {
+  display: none;
+}

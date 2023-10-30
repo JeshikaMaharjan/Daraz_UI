@@ -32,13 +32,13 @@ export default function Header() {
           </div>
         </div>
         <div className="logo">
-          <img src="../assets/darazLogo.png" />
+          <img src="assets/darazLogo.png" />
         </div>
         <div className="searchBar">
           <input placeholder="Search in Daraz"></input>
         </div>
         <div className="account">
-          <img src="../assets/account.png" />
+          <img src="assets/account.png" />
           <div>
             <span>Hello,user.</span>
             <p>Orders & Account</p>

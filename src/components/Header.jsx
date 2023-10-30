@@ -1,4 +1,5 @@
 import "../styles/header.css";
+import smallLogo from "../assets/smallLogo.png";
 
 export default function Header() {
   window.onscroll = function () {
@@ -25,7 +26,8 @@ export default function Header() {
             <p>Help & Support</p>
           </div>
           <div className="linkButton">
-            <img src="./assets/smallLogo.png" />
+            {/* <img src="./assets/smallLogo.png" /> */}
+            <img src={smallLogo} />
             <span>Save More on App</span>
           </div>
         </div>

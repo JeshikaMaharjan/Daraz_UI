@@ -25,12 +25,12 @@ export default function Header() {
             <p>Help & Support</p>
           </div>
           <div className="linkButton">
-            <img src="../src/assets/smallLogo.png" />
+            <img src="./assets/smallLogo.png" />
             <span>Save More on App</span>
           </div>
         </div>
         <div className="logo">
-          <img src="./assets/darazlogo.png" />
+          <img src="./assets/darazLogo.png" />
         </div>
         <div className="searchBar">
           <input placeholder="Search in Daraz"></input>
